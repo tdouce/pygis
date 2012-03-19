@@ -17,18 +17,12 @@ A Python 2.5 code library that facilitates the generation of geospatial files ( 
         Filter csv (get only columns of interest)
         Converting Minutes Degrees Seconds to Decimal Degrees 
 
-
 Odds and Ends
 
     This library was built using Python 2.5. NOTE: ArcGIS 9.X hardcodes the Python version.
     Currently, there is only a windows installation because the majority of the functionality in pygis interfaces with ArcGIS which is only available on windows.
     We hope to have an ArcGIS 10 version of this library soon.
         Although not thoroughly tested, this library appears to work on ArcGIS 10 
-    If there is some functionality that you want to see and is currently not there, please feel free to submit a ticket and I'll see what I can do. Currently, the library only includes functionalities that were frequently requested.
-    If you find a bug, please submit a ticket and I'll fix as soon as I can.
-    You may be required to download and install external python libraries. Any required libraries are noted in the examples below. 
-
-
 
 Download
 
