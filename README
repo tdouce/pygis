@@ -74,7 +74,7 @@ Converts csv files to kml files ( points, polylines, polygons )
 
 Dependency libraries: numpy
 
-    '''python
+    <code>
     from pygis.kml.csv_to_kml import Csv_To_Kml
 
     # The location of the csv file
@@ -82,7 +82,7 @@ Dependency libraries: numpy
 
     # Output directory location
     output = r'Path\To\output'
-    '''
+    </code>
 
 # 'cleanup_data' - optional. If passed in and set to True then the csv file will be checked for and clean up'hanging cells'. 'hanging cell'(s) generally are typos where
 # a user might inadvertently enter a blank value (i.e. '  ') as the last header or row value.  Although, this is more process intensive it is recommended to set this argument
